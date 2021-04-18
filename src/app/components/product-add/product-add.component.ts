@@ -38,7 +38,7 @@ export class ProductAddComponent implements OnInit {
         this.toastrService.success(response.message,"Başarılı")
       },responseError=>{
         console.log(responseError.error)
-      }) 
+      })
          
     }else{
       this.toastrService.error("Formunuz eksik","Dikkat")
