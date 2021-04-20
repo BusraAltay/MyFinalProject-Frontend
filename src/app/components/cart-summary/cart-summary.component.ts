@@ -20,6 +20,7 @@ export class CartSummaryComponent implements OnInit {
 
   getCart() {
     this.cartItems = this.cartService.list();
+    
   }
 
   removeFromCart(product:Product){
